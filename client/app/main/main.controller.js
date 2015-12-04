@@ -4,6 +4,20 @@
 function MainController($scope, $http) {
   var self = this;
   this.awesomeThings = [];
+  this.myInterval = 0;
+  this.slides = {
+    {text: '<p>
+              A face is an object that has many features.
+            <p>
+            <ul>
+              <li>numberOfEyes</li>
+              <li>numberOfNoses</li>
+              <li>numberOfMouths</li>
+              <li>name</li>
+              <li>hasLongHair</li>
+            </ul>'
+    }
+  }
 
   $http.get('/api/things').then(function(response) {
     self.awesomeThings = response.data;

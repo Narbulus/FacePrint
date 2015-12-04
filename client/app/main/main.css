@@ -25,3 +25,18 @@
 .navbar-text {
   margin-left: 15px;
 }
+
+#face_drawing, #face_code {
+  float: left;
+}
+
+#face_drawing {
+  width: 380px;
+  height: 500px;
+  border: solid gray 1px;
+}
+
+.carousel-caption{
+    color:#000;
+    position:static;
+}
