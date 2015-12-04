@@ -28,11 +28,13 @@
 
 #face_drawing, #face_code {
   float: left;
+  padding: 10px;
+  margin: 10px;
 }
 
 #face_drawing {
   width: 380px;
-  height: 500px;
+  height: 220px;
   border: solid gray 1px;
 }
 
